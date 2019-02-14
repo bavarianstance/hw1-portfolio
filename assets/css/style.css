@@ -1,0 +1,139 @@
+body {
+	
+}
+section.title {
+	background-color:#4aaaa5;
+	color:white;
+	float:left;
+	padding:5px 20px;
+	margin-left: 45px;
+}
+
+section.navbar{
+	float:right;
+	display:inline;
+	color:#cccccc;
+	padding:25px;
+}
+section.body {
+	background-image: url("../images/white-waves.png");
+	width: 960px;
+	clear:both;
+}
+
+div.top {
+	background-color:white;
+	width:960px;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+div.aboutme{
+	margin: 25px 50px;
+	background-color:white;
+	color:#666666;
+}
+
+img.index{
+	float:left;
+	padding: 20px;
+
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding:20px;
+}
+
+footer {
+	clear:both;
+	text-align:center;
+	background-color:#666666;
+	color:#dddddd;
+	margin:0px;
+}
+
+hr.main {
+	 height: 12px; 
+	 border: 0; 
+	 box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+hr.sub{
+	 border: 0;
+	 height: 1px; 
+	 background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.bottom {
+	clear:both;
+	background-color:#4aaaa5;
+	padding-top: 10px;
+	margin:0px;
+}
+
+a {
+color:#cccccc;
+text-decoration: none; /* no underline */
+padding:10px;
+
+}
+
+p.aboutme {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif
+}
+
+.content {
+    position: relative;
+    display:inline-block;
+}
+
+.content .title {
+   position: absolute;
+   bottom: 10px;
+   left: 0px;
+   background: #4aaaa5;
+   padding: 10px 10px;
+   width:280px;
+   color: #fff;
+   display:inline-block;
+  }
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #4CAF50;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
